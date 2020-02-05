@@ -11,7 +11,7 @@
   <body>
     <script>
       const pressed = [];
-      const secretCode = 'wesbos';
+      const secretCode = 'evandoyle';
 
       window.addEventListener('keyup', e => {
         console.log(e.key);
@@ -21,7 +21,7 @@
           pressed.length - secretCode.length
         );
         if (pressed.join('').includes(secretCode)) {
-          console.log('DING DING!');
+          console.log('DING DING! YOU\'VE DISCOVERED THE SECRET CODE!');
         }
         console.log(pressed);
       });
